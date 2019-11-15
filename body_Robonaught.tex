@@ -1,0 +1,30 @@
+%%% Essentials
+\import{\sectiondir}{Header}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Content
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+% \relscale{1.12} 
+\relscale{1.27}
+%%% Make a header for CV with personal data
+\makecvheader
+\vspace{10pt}
+
+%%% Import contents
+\import{\sectiondir}{education.tex}
+\vspace{4pt}
+\import{\sectiondir}{skills.tex}
+\vspace{4pt}
+\import{\sectiondir}{experience.tex}
+\vspace{4pt}
+\import{\sectiondir}{projects.tex}
+% \import{\sectiondir}{publications.tex}
+
+
+%%% Make a footer for CV with three arguments(<left>, <center>, <right>)
+% \makecvfooter
+%   {}
+%   {Nicholas Renninger~~~·~~~Résumé}
+%   {}
+\end{document}
