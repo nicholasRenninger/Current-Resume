@@ -1,3 +1,5 @@
+I modified this quite a bit to support my own needs, but it largely looks like the original template! This is a quite a nice template.
+
 # Software Engineer Latex Resume
 A Resume in LaTeX!
 

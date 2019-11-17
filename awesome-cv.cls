@@ -149,6 +149,7 @@
 \colorlet{graytext}{gray}
 \colorlet{lighttext}{lightgray}
 % Awesome colors
+\definecolor{awesome-nick}{HTML}{075913} % this may or may not be Montblanc Irish Green Ink
 \definecolor{awesome-emerald}{HTML}{00A388}
 \definecolor{awesome-skyblue}{HTML}{0395DE}
 \definecolor{awesome-red}{HTML}{DC3522}
@@ -305,7 +306,7 @@
 
 % Define writer's position
 % Usage: \name{<position>}
-\newcommand*{\position}[1]{\def\@position{#1}}
+\newcommand*{\position}[3]{\def\@position{#1 \quad \faTerminal \quad #2 \quad \faTerminal \quad #3}}
 
 % Defines writer's mobile (optional)
 % Usage: \mobile{<mobile number>}
